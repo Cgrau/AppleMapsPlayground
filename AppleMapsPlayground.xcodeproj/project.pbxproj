@@ -3,18 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C2A397D245034E900D76132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A397C245034E900D76132 /* AppDelegate.swift */; };
-		2C2A397F245034E900D76132 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A397E245034E900D76132 /* SceneDelegate.swift */; };
-		2C2A3981245034E900D76132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A3980245034E900D76132 /* ViewController.swift */; };
-		2C2A3984245034E900D76132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A3982245034E900D76132 /* Main.storyboard */; };
 		2C2A3986245034EB00D76132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A3985245034EB00D76132 /* Assets.xcassets */; };
 		2C2A3989245034EB00D76132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A3987245034EB00D76132 /* LaunchScreen.storyboard */; };
 		2C2A3994245034EB00D76132 /* AppleMapsPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A3993245034EB00D76132 /* AppleMapsPlaygroundTests.swift */; };
 		2C2A399F245034EB00D76132 /* AppleMapsPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A399E245034EB00D76132 /* AppleMapsPlaygroundUITests.swift */; };
+		2C2A39AE245037B200D76132 /* MapKitZoomHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39AD245037B200D76132 /* MapKitZoomHelper.swift */; };
+		2C2A39B0245037E900D76132 /* MapKitProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39AF245037E900D76132 /* MapKitProvider.swift */; };
+		2C2A39B22450381000D76132 /* MapProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39B12450381000D76132 /* MapProviderDelegate.swift */; };
+		2C2A39B42450382E00D76132 /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39B32450382E00D76132 /* MapProvider.swift */; };
+		2C2A39B62450386100D76132 /* ZoomLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39B52450386100D76132 /* ZoomLevel.swift */; };
+		2C2A39B82450388C00D76132 /* MapKitProvider+Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39B72450388C00D76132 /* MapKitProvider+Overlay.swift */; };
+		2C2A39C424503A4200D76132 /* MainViewControllerNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39BA24503A4200D76132 /* MainViewControllerNavigator.swift */; };
+		2C2A39C524503A4200D76132 /* MainViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39BB24503A4200D76132 /* MainViewControllerPresenter.swift */; };
+		2C2A39C624503A4200D76132 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39BC24503A4200D76132 /* MainViewController.swift */; };
+		2C2A39C724503A4200D76132 /* DefaultMainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39BD24503A4200D76132 /* DefaultMainInteractor.swift */; };
+		2C2A39C824503A4200D76132 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39BE24503A4200D76132 /* MainInteractor.swift */; };
+		2C2A39C924503A4200D76132 /* DefaultMainViewControllerNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39BF24503A4200D76132 /* DefaultMainViewControllerNavigator.swift */; };
+		2C2A39CA24503A4200D76132 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39C024503A4200D76132 /* MainView.swift */; };
+		2C2A39CB24503A4200D76132 /* MainUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39C124503A4200D76132 /* MainUI.swift */; };
+		2C2A39CC24503A4200D76132 /* DefaultMainViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39C224503A4200D76132 /* DefaultMainViewControllerPresenter.swift */; };
+		2C2A39CD24503A4200D76132 /* MainViewControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39C324503A4200D76132 /* MainViewControllerProvider.swift */; };
+		2C2A39D6245045F000D76132 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39D5245045F000D76132 /* View.swift */; };
+		2C2A39D9245046C400D76132 /* RouteDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39D8245046C400D76132 /* RouteDrawable.swift */; };
+		2C2A39DC2450497800D76132 /* MapKitOverlayDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39DB2450497800D76132 /* MapKitOverlayDrawable.swift */; };
+		2C2A39DE2450498A00D76132 /* OverlayDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39DD2450498A00D76132 /* OverlayDrawable.swift */; };
+		2C2A39E324504B6000D76132 /* AutoMockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39E224504B6000D76132 /* AutoMockable.swift */; };
+		2C2A39E524504BB000D76132 /* AutoMockable in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A39E424504BB000D76132 /* AutoMockable */; };
+		2C2A39E724504F4700D76132 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39E624504F4700D76132 /* MapView.swift */; };
+		2C2A39EA2450531E00D76132 /* MapKitRouteDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */; };
+		2C2A39ED2450552800D76132 /* MKMultiPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39EC2450552800D76132 /* MKMultiPoint+Extensions.swift */; };
+		2C2A39EF245059C900D76132 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39EE245059C900D76132 /* SceneDelegate.swift */; };
+		38B80A83B5E44DF8493DABF0 /* libPods-AppleMapsPlaygroundUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9715FA31DB6D5D45001B7423 /* libPods-AppleMapsPlaygroundUITests.a */; };
+		4DE342E35C7F2823AA3DE3F9 /* Pods_AppleMapsPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F41E53A830BCC6F6B03760 /* Pods_AppleMapsPlaygroundTests.framework */; };
+		AA4F4A95883C2A8633014ECC /* Pods_AppleMapsPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2303F91706DD8B96BDD085 /* Pods_AppleMapsPlayground.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +61,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03598F5B84550F7BF16D734B /* Pods-AppleMapsPlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlaygroundTests/Pods-AppleMapsPlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B950A79F5F5FE36635AF69E /* Pods-AppleMapsPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlaygroundUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlaygroundUITests/Pods-AppleMapsPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0F11A27A33E51229CAFAE6BA /* Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.release.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests/Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1894C3C5F98CBB9D3DD446D4 /* Pods-AppleMapsPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlayground.release.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlayground/Pods-AppleMapsPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		2C2A3979245034E900D76132 /* AppleMapsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMapsPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2A397C245034E900D76132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C2A397E245034E900D76132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C2A3980245034E900D76132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C2A3983245034E900D76132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C2A3985245034EB00D76132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C2A3988245034EB00D76132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C2A398A245034EB00D76132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +76,39 @@
 		2C2A399A245034EB00D76132 /* AppleMapsPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapsPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2A399E245034EB00D76132 /* AppleMapsPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsPlaygroundUITests.swift; sourceTree = "<group>"; };
 		2C2A39A0245034EB00D76132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C2A39AD245037B200D76132 /* MapKitZoomHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitZoomHelper.swift; sourceTree = "<group>"; };
+		2C2A39AF245037E900D76132 /* MapKitProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitProvider.swift; sourceTree = "<group>"; };
+		2C2A39B12450381000D76132 /* MapProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProviderDelegate.swift; sourceTree = "<group>"; };
+		2C2A39B32450382E00D76132 /* MapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
+		2C2A39B52450386100D76132 /* ZoomLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomLevel.swift; sourceTree = "<group>"; };
+		2C2A39B72450388C00D76132 /* MapKitProvider+Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapKitProvider+Overlay.swift"; sourceTree = "<group>"; };
+		2C2A39BA24503A4200D76132 /* MainViewControllerNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerNavigator.swift; sourceTree = "<group>"; };
+		2C2A39BB24503A4200D76132 /* MainViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerPresenter.swift; sourceTree = "<group>"; };
+		2C2A39BC24503A4200D76132 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2C2A39BD24503A4200D76132 /* DefaultMainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMainInteractor.swift; sourceTree = "<group>"; };
+		2C2A39BE24503A4200D76132 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		2C2A39BF24503A4200D76132 /* DefaultMainViewControllerNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMainViewControllerNavigator.swift; sourceTree = "<group>"; };
+		2C2A39C024503A4200D76132 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2C2A39C124503A4200D76132 /* MainUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUI.swift; sourceTree = "<group>"; };
+		2C2A39C224503A4200D76132 /* DefaultMainViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMainViewControllerPresenter.swift; sourceTree = "<group>"; };
+		2C2A39C324503A4200D76132 /* MainViewControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerProvider.swift; sourceTree = "<group>"; };
+		2C2A39D5245045F000D76132 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		2C2A39D8245046C400D76132 /* RouteDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDrawable.swift; sourceTree = "<group>"; };
+		2C2A39DB2450497800D76132 /* MapKitOverlayDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitOverlayDrawable.swift; sourceTree = "<group>"; };
+		2C2A39DD2450498A00D76132 /* OverlayDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayDrawable.swift; sourceTree = "<group>"; };
+		2C2A39E224504B6000D76132 /* AutoMockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoMockable.swift; sourceTree = "<group>"; };
+		2C2A39E424504BB000D76132 /* AutoMockable */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AutoMockable; sourceTree = "<group>"; };
+		2C2A39E624504F4700D76132 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitRouteDrawable.swift; sourceTree = "<group>"; };
+		2C2A39EC2450552800D76132 /* MKMultiPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMultiPoint+Extensions.swift"; sourceTree = "<group>"; };
+		2C2A39EE245059C900D76132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36C8F9E5C00DA95862F339DE /* Pods-AppleMapsPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlayground.debug.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlayground/Pods-AppleMapsPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		5D2303F91706DD8B96BDD085 /* Pods_AppleMapsPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMapsPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6804C5433305BA1103706E40 /* Pods-AppleMapsPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlaygroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlaygroundUITests/Pods-AppleMapsPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9715FA31DB6D5D45001B7423 /* libPods-AppleMapsPlaygroundUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleMapsPlaygroundUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B08C45066EE72CCCAA76F19 /* Pods-AppleMapsPlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlaygroundTests/Pods-AppleMapsPlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		A24F8A9220EF34268EBA9D0C /* Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests/Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7F41E53A830BCC6F6B03760 /* Pods_AppleMapsPlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMapsPlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4F4A95883C2A8633014ECC /* Pods_AppleMapsPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DE342E35C7F2823AA3DE3F9 /* Pods_AppleMapsPlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +132,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B80A83B5E44DF8493DABF0 /* libPods-AppleMapsPlaygroundUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17C7802D816E2B30B87B2275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2303F91706DD8B96BDD085 /* Pods_AppleMapsPlayground.framework */,
+				A7F41E53A830BCC6F6B03760 /* Pods_AppleMapsPlaygroundTests.framework */,
+				9715FA31DB6D5D45001B7423 /* libPods-AppleMapsPlaygroundUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C2A3970245034E900D76132 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +156,8 @@
 				2C2A3992245034EB00D76132 /* AppleMapsPlaygroundTests */,
 				2C2A399D245034EB00D76132 /* AppleMapsPlaygroundUITests */,
 				2C2A397A245034E900D76132 /* Products */,
+				80F5B491902FC32DEE1B8EC6 /* Pods */,
+				17C7802D816E2B30B87B2275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +174,11 @@
 		2C2A397B245034E900D76132 /* AppleMapsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				2C2A39D3245045E000D76132 /* Core */,
 				2C2A397C245034E900D76132 /* AppDelegate.swift */,
-				2C2A397E245034E900D76132 /* SceneDelegate.swift */,
-				2C2A3980245034E900D76132 /* ViewController.swift */,
-				2C2A3982245034E900D76132 /* Main.storyboard */,
+				2C2A39EE245059C900D76132 /* SceneDelegate.swift */,
+				2C2A39B924503A2800D76132 /* MainViewController */,
+				2C2A39AC2450379600D76132 /* Map */,
 				2C2A3985245034EB00D76132 /* Assets.xcassets */,
 				2C2A3987245034EB00D76132 /* LaunchScreen.storyboard */,
 				2C2A398A245034EB00D76132 /* Info.plist */,
@@ -113,6 +189,7 @@
 		2C2A3992245034EB00D76132 /* AppleMapsPlaygroundTests */ = {
 			isa = PBXGroup;
 			children = (
+				2C2A39E424504BB000D76132 /* AutoMockable */,
 				2C2A3993245034EB00D76132 /* AppleMapsPlaygroundTests.swift */,
 				2C2A3995245034EB00D76132 /* Info.plist */,
 			);
@@ -128,6 +205,146 @@
 			path = AppleMapsPlaygroundUITests;
 			sourceTree = "<group>";
 		};
+		2C2A39AC2450379600D76132 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39E624504F4700D76132 /* MapView.swift */,
+				2C2A39DA2450496A00D76132 /* Overlay */,
+				2C2A39D7245046B800D76132 /* Route */,
+				2C2A39AD245037B200D76132 /* MapKitZoomHelper.swift */,
+				2C2A39AF245037E900D76132 /* MapKitProvider.swift */,
+				2C2A39B12450381000D76132 /* MapProviderDelegate.swift */,
+				2C2A39B32450382E00D76132 /* MapProvider.swift */,
+				2C2A39B52450386100D76132 /* ZoomLevel.swift */,
+				2C2A39B72450388C00D76132 /* MapKitProvider+Overlay.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2C2A39B924503A2800D76132 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39CE24503A4E00D76132 /* View */,
+				2C2A39D124503A7800D76132 /* Interactor */,
+				2C2A39D024503A5B00D76132 /* Presenter */,
+				2C2A39CF24503A5200D76132 /* Navigator */,
+				2C2A39D224503A7D00D76132 /* Infraestructure */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		2C2A39CE24503A4E00D76132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39BC24503A4200D76132 /* MainViewController.swift */,
+				2C2A39C024503A4200D76132 /* MainView.swift */,
+				2C2A39C124503A4200D76132 /* MainUI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C2A39CF24503A5200D76132 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39BA24503A4200D76132 /* MainViewControllerNavigator.swift */,
+				2C2A39BF24503A4200D76132 /* DefaultMainViewControllerNavigator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		2C2A39D024503A5B00D76132 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39BB24503A4200D76132 /* MainViewControllerPresenter.swift */,
+				2C2A39C224503A4200D76132 /* DefaultMainViewControllerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2C2A39D124503A7800D76132 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39BE24503A4200D76132 /* MainInteractor.swift */,
+				2C2A39BD24503A4200D76132 /* DefaultMainInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2C2A39D224503A7D00D76132 /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39C324503A4200D76132 /* MainViewControllerProvider.swift */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		2C2A39D3245045E000D76132 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39E124504B4F00D76132 /* AutoMockable */,
+				2C2A39D4245045E600D76132 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2C2A39D4245045E600D76132 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39D5245045F000D76132 /* View.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2C2A39D7245046B800D76132 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39EB2450551A00D76132 /* Extensions */,
+				2C2A39D8245046C400D76132 /* RouteDrawable.swift */,
+				2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		2C2A39DA2450496A00D76132 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39DD2450498A00D76132 /* OverlayDrawable.swift */,
+				2C2A39DB2450497800D76132 /* MapKitOverlayDrawable.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		2C2A39E124504B4F00D76132 /* AutoMockable */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39E224504B6000D76132 /* AutoMockable.swift */,
+			);
+			path = AutoMockable;
+			sourceTree = "<group>";
+		};
+		2C2A39EB2450551A00D76132 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39EC2450552800D76132 /* MKMultiPoint+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		80F5B491902FC32DEE1B8EC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36C8F9E5C00DA95862F339DE /* Pods-AppleMapsPlayground.debug.xcconfig */,
+				1894C3C5F98CBB9D3DD446D4 /* Pods-AppleMapsPlayground.release.xcconfig */,
+				A24F8A9220EF34268EBA9D0C /* Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.debug.xcconfig */,
+				0F11A27A33E51229CAFAE6BA /* Pods-AppleMapsPlayground-AppleMapsPlaygroundUITests.release.xcconfig */,
+				03598F5B84550F7BF16D734B /* Pods-AppleMapsPlaygroundTests.debug.xcconfig */,
+				9B08C45066EE72CCCAA76F19 /* Pods-AppleMapsPlaygroundTests.release.xcconfig */,
+				6804C5433305BA1103706E40 /* Pods-AppleMapsPlaygroundUITests.debug.xcconfig */,
+				0B950A79F5F5FE36635AF69E /* Pods-AppleMapsPlaygroundUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +352,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C2A39A3245034EB00D76132 /* Build configuration list for PBXNativeTarget "AppleMapsPlayground" */;
 			buildPhases = (
+				9102183BBEEC425FA12A927E /* [CP] Check Pods Manifest.lock */,
+				2C2A39DF245049E400D76132 /* Sourcery */,
 				2C2A3975245034E900D76132 /* Sources */,
 				2C2A3976245034E900D76132 /* Frameworks */,
 				2C2A3977245034E900D76132 /* Resources */,
+				2E781951E79522B8AD245393 /* [CP] Embed Pods Frameworks */,
+				2C2A39E8245050A400D76132 /* Unused */,
 			);
 			buildRules = (
 			);
@@ -152,6 +373,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C2A39A6245034EB00D76132 /* Build configuration list for PBXNativeTarget "AppleMapsPlaygroundTests" */;
 			buildPhases = (
+				28BDC87B89F3A4D299659BCC /* [CP] Check Pods Manifest.lock */,
 				2C2A398B245034EB00D76132 /* Sources */,
 				2C2A398C245034EB00D76132 /* Frameworks */,
 				2C2A398D245034EB00D76132 /* Resources */,
@@ -170,6 +392,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C2A39A9245034EB00D76132 /* Build configuration list for PBXNativeTarget "AppleMapsPlaygroundUITests" */;
 			buildPhases = (
+				0ADB1F4E2E09BE0F2442E6E4 /* [CP] Check Pods Manifest.lock */,
 				2C2A3996245034EB00D76132 /* Sources */,
 				2C2A3997245034EB00D76132 /* Frameworks */,
 				2C2A3998245034EB00D76132 /* Resources */,
@@ -234,7 +457,6 @@
 			files = (
 				2C2A3989245034EB00D76132 /* LaunchScreen.storyboard in Resources */,
 				2C2A3986245034EB00D76132 /* Assets.xcassets in Resources */,
-				2C2A3984245034E900D76132 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C2A39E524504BB000D76132 /* AutoMockable in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +477,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ADB1F4E2E09BE0F2442E6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleMapsPlaygroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28BDC87B89F3A4D299659BCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleMapsPlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C2A39DF245049E400D76132 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/Sourcery/bin/sourcery --sources ./ --templates ./Templates/Sourcery --output ./AppleMapsPlaygroundTests/AutoMockable\n";
+		};
+		2C2A39E8245050A400D76132 /* Unused */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Unused;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/unused.rb xcode\n";
+		};
+		2E781951E79522B8AD245393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMapsPlayground/Pods-AppleMapsPlayground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleMapsPlayground/Pods-AppleMapsPlayground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleMapsPlayground/Pods-AppleMapsPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9102183BBEEC425FA12A927E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleMapsPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C2A3975245034E900D76132 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C2A3981245034E900D76132 /* ViewController.swift in Sources */,
+				2C2A39C724503A4200D76132 /* DefaultMainInteractor.swift in Sources */,
+				2C2A39B0245037E900D76132 /* MapKitProvider.swift in Sources */,
+				2C2A39C824503A4200D76132 /* MainInteractor.swift in Sources */,
+				2C2A39C424503A4200D76132 /* MainViewControllerNavigator.swift in Sources */,
+				2C2A39ED2450552800D76132 /* MKMultiPoint+Extensions.swift in Sources */,
+				2C2A39E324504B6000D76132 /* AutoMockable.swift in Sources */,
+				2C2A39C524503A4200D76132 /* MainViewControllerPresenter.swift in Sources */,
+				2C2A39C924503A4200D76132 /* DefaultMainViewControllerNavigator.swift in Sources */,
+				2C2A39DE2450498A00D76132 /* OverlayDrawable.swift in Sources */,
+				2C2A39CA24503A4200D76132 /* MainView.swift in Sources */,
+				2C2A39AE245037B200D76132 /* MapKitZoomHelper.swift in Sources */,
+				2C2A39C624503A4200D76132 /* MainViewController.swift in Sources */,
+				2C2A39E724504F4700D76132 /* MapView.swift in Sources */,
+				2C2A39EA2450531E00D76132 /* MapKitRouteDrawable.swift in Sources */,
+				2C2A39DC2450497800D76132 /* MapKitOverlayDrawable.swift in Sources */,
+				2C2A39CB24503A4200D76132 /* MainUI.swift in Sources */,
+				2C2A39B42450382E00D76132 /* MapProvider.swift in Sources */,
+				2C2A39D6245045F000D76132 /* View.swift in Sources */,
 				2C2A397D245034E900D76132 /* AppDelegate.swift in Sources */,
-				2C2A397F245034E900D76132 /* SceneDelegate.swift in Sources */,
+				2C2A39CD24503A4200D76132 /* MainViewControllerProvider.swift in Sources */,
+				2C2A39B22450381000D76132 /* MapProviderDelegate.swift in Sources */,
+				2C2A39EF245059C900D76132 /* SceneDelegate.swift in Sources */,
+				2C2A39B82450388C00D76132 /* MapKitProvider+Overlay.swift in Sources */,
+				2C2A39CC24503A4200D76132 /* DefaultMainViewControllerPresenter.swift in Sources */,
+				2C2A39B62450386100D76132 /* ZoomLevel.swift in Sources */,
+				2C2A39D9245046C400D76132 /* RouteDrawable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +665,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C2A3982245034E900D76132 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C2A3983245034E900D76132 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C2A3987245034EB00D76132 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +792,7 @@
 		};
 		2C2A39A4245034EB00D76132 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36C8F9E5C00DA95862F339DE /* Pods-AppleMapsPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +810,7 @@
 		};
 		2C2A39A5245034EB00D76132 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1894C3C5F98CBB9D3DD446D4 /* Pods-AppleMapsPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +828,7 @@
 		};
 		2C2A39A7245034EB00D76132 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03598F5B84550F7BF16D734B /* Pods-AppleMapsPlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +850,7 @@
 		};
 		2C2A39A8245034EB00D76132 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B08C45066EE72CCCAA76F19 /* Pods-AppleMapsPlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +872,7 @@
 		};
 		2C2A39AA245034EB00D76132 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6804C5433305BA1103706E40 /* Pods-AppleMapsPlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +892,7 @@
 		};
 		2C2A39AB245034EB00D76132 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B950A79F5F5FE36635AF69E /* Pods-AppleMapsPlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
