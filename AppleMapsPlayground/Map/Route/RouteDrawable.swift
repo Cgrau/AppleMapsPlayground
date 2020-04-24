@@ -1,10 +1,11 @@
 import MapKit
 
 protocol RouteDrawable: class {
-  func draw(route: Route)
+  func draw(route polyLineString: String)
   func removeRoute()
 }
 
 struct Route {
-  let value: MKRoute?
+  let coordinates: [CLLocationCoordinate2D]
+  let pointCount: Int
 }

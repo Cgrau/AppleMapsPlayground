@@ -12,7 +12,6 @@
 		2C2A3989245034EB00D76132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A3987245034EB00D76132 /* LaunchScreen.storyboard */; };
 		2C2A3994245034EB00D76132 /* AppleMapsPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A3993245034EB00D76132 /* AppleMapsPlaygroundTests.swift */; };
 		2C2A399F245034EB00D76132 /* AppleMapsPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A399E245034EB00D76132 /* AppleMapsPlaygroundUITests.swift */; };
-		2C2A39AE245037B200D76132 /* MapKitZoomHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39AD245037B200D76132 /* MapKitZoomHelper.swift */; };
 		2C2A39B0245037E900D76132 /* MapKitProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39AF245037E900D76132 /* MapKitProvider.swift */; };
 		2C2A39B22450381000D76132 /* MapProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39B12450381000D76132 /* MapProviderDelegate.swift */; };
 		2C2A39B42450382E00D76132 /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39B32450382E00D76132 /* MapProvider.swift */; };
@@ -38,6 +37,7 @@
 		2C2A39EA2450531E00D76132 /* MapKitRouteDrawable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */; };
 		2C2A39ED2450552800D76132 /* MKMultiPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39EC2450552800D76132 /* MKMultiPoint+Extensions.swift */; };
 		2C2A39EF245059C900D76132 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39EE245059C900D76132 /* SceneDelegate.swift */; };
+		2C2A39F22452DE9400D76132 /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A39F12452DE9400D76132 /* Polyline.swift */; };
 		38B80A83B5E44DF8493DABF0 /* libPods-AppleMapsPlaygroundUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9715FA31DB6D5D45001B7423 /* libPods-AppleMapsPlaygroundUITests.a */; };
 		4DE342E35C7F2823AA3DE3F9 /* Pods_AppleMapsPlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F41E53A830BCC6F6B03760 /* Pods_AppleMapsPlaygroundTests.framework */; };
 		AA4F4A95883C2A8633014ECC /* Pods_AppleMapsPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2303F91706DD8B96BDD085 /* Pods_AppleMapsPlayground.framework */; };
@@ -76,7 +76,6 @@
 		2C2A399A245034EB00D76132 /* AppleMapsPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapsPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2A399E245034EB00D76132 /* AppleMapsPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsPlaygroundUITests.swift; sourceTree = "<group>"; };
 		2C2A39A0245034EB00D76132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C2A39AD245037B200D76132 /* MapKitZoomHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitZoomHelper.swift; sourceTree = "<group>"; };
 		2C2A39AF245037E900D76132 /* MapKitProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitProvider.swift; sourceTree = "<group>"; };
 		2C2A39B12450381000D76132 /* MapProviderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProviderDelegate.swift; sourceTree = "<group>"; };
 		2C2A39B32450382E00D76132 /* MapProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
@@ -102,6 +101,7 @@
 		2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitRouteDrawable.swift; sourceTree = "<group>"; };
 		2C2A39EC2450552800D76132 /* MKMultiPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMultiPoint+Extensions.swift"; sourceTree = "<group>"; };
 		2C2A39EE245059C900D76132 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C2A39F12452DE9400D76132 /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
 		36C8F9E5C00DA95862F339DE /* Pods-AppleMapsPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlayground.debug.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlayground/Pods-AppleMapsPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		5D2303F91706DD8B96BDD085 /* Pods_AppleMapsPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleMapsPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6804C5433305BA1103706E40 /* Pods-AppleMapsPlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMapsPlaygroundUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppleMapsPlaygroundUITests/Pods-AppleMapsPlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -211,12 +211,10 @@
 				2C2A39E624504F4700D76132 /* MapView.swift */,
 				2C2A39DA2450496A00D76132 /* Overlay */,
 				2C2A39D7245046B800D76132 /* Route */,
-				2C2A39AD245037B200D76132 /* MapKitZoomHelper.swift */,
 				2C2A39AF245037E900D76132 /* MapKitProvider.swift */,
 				2C2A39B12450381000D76132 /* MapProviderDelegate.swift */,
 				2C2A39B32450382E00D76132 /* MapProvider.swift */,
 				2C2A39B52450386100D76132 /* ZoomLevel.swift */,
-				2C2A39B72450388C00D76132 /* MapKitProvider+Overlay.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -298,6 +296,7 @@
 		2C2A39D7245046B800D76132 /* Route */ = {
 			isa = PBXGroup;
 			children = (
+				2C2A39F02452DE8500D76132 /* Libraries */,
 				2C2A39EB2450551A00D76132 /* Extensions */,
 				2C2A39D8245046C400D76132 /* RouteDrawable.swift */,
 				2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */,
@@ -310,6 +309,7 @@
 			children = (
 				2C2A39DD2450498A00D76132 /* OverlayDrawable.swift */,
 				2C2A39DB2450497800D76132 /* MapKitOverlayDrawable.swift */,
+				2C2A39B72450388C00D76132 /* MapKitProvider+Overlay.swift */,
 			);
 			path = Overlay;
 			sourceTree = "<group>";
@@ -328,6 +328,14 @@
 				2C2A39EC2450552800D76132 /* MKMultiPoint+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2C2A39F02452DE8500D76132 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2C2A39F12452DE9400D76132 /* Polyline.swift */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 		80F5B491902FC32DEE1B8EC6 /* Pods */ = {
@@ -613,8 +621,8 @@
 				2C2A39C524503A4200D76132 /* MainViewControllerPresenter.swift in Sources */,
 				2C2A39C924503A4200D76132 /* DefaultMainViewControllerNavigator.swift in Sources */,
 				2C2A39DE2450498A00D76132 /* OverlayDrawable.swift in Sources */,
+				2C2A39F22452DE9400D76132 /* Polyline.swift in Sources */,
 				2C2A39CA24503A4200D76132 /* MainView.swift in Sources */,
-				2C2A39AE245037B200D76132 /* MapKitZoomHelper.swift in Sources */,
 				2C2A39C624503A4200D76132 /* MainViewController.swift in Sources */,
 				2C2A39E724504F4700D76132 /* MapView.swift in Sources */,
 				2C2A39EA2450531E00D76132 /* MapKitRouteDrawable.swift in Sources */,

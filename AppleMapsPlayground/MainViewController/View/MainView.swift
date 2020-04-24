@@ -17,8 +17,7 @@ class MainView: View {
   private var mapProvider: MapProvider?
   weak var delegate: MainViewDelegate?
   
-  private var routeDrawableProvider: RouteDrawable?
-  private var overlayDrawable: OverlayDrawable?
+  private var routeDrawable: RouteDrawable?
   
   private var mapView: UIView? {
     return mapProvider?.mapView
@@ -33,12 +32,10 @@ class MainView: View {
   }
   
   func setupProviders(mapProvider: MapProvider,
-                      routeDrawableProvider: RouteDrawable,
-                      overlayDrawable: OverlayDrawable) {
+                      routeDrawable: RouteDrawable) {
     self.mapProvider = mapProvider
     self.mapProvider?.delegate = self
-    self.routeDrawableProvider = routeDrawableProvider
-    self.overlayDrawable = overlayDrawable
+    self.routeDrawable = routeDrawable
     setupMap()
   }
   
@@ -50,6 +47,12 @@ class MainView: View {
     mapView.snp.makeConstraints { make in
       make.edges.equalTo(self)
     }
+    addPolyline()
+  }
+  
+  private func addPolyline() {
+    let polyLineString = "sdq{Fc}iLj@zR|W~TryCzvC??do@jkKeiDxjIccLhiFqiE`uJqe@rlCy~B`t@sK|i@"
+    routeDrawable?.draw(route: polyLineString)
   }
 }
 

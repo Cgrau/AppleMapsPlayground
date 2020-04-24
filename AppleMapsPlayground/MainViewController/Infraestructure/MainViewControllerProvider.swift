@@ -45,8 +45,7 @@ class DefaultMainProvider : MainProvider {
     let containerView = MainView()
     let provider = mapKitMapProvider
     containerView.setupProviders(mapProvider: provider,
-                                 routeDrawableProvider: routeDrawableProvider(with: provider),
-                                 overlayDrawable: overlayDrawableProvider(with: provider))
+                                 routeDrawable: routeDrawableProvider(with: provider))
     return containerView
   }
   

@@ -9,7 +9,6 @@ def app_pods
   use_frameworks!
   pod 'Sourcery'
   pod 'SnapKit', '~> 5.0.0'
-  pod 'Polyline', '~> 4.0'
 end
 
 target 'AppleMapsPlayground' do

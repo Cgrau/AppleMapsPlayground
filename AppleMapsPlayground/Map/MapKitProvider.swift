@@ -12,15 +12,11 @@ final class MapKitProvider: NSObject, MapProvider, MKMapViewDelegate {
     return view
   }()
   
-  var zoomLevel = ZoomLevel.none
-  let zoomHelper = MapKitZoomHelper()
-  
   override init() {
     super.init()
     
     guard let mapView = mapView as? MKMapView else { fatalError() }
     mapView.delegate = self
-    registerAnnotationViews(for: mapView)
     showUserLocation()
   }
 
@@ -29,15 +25,6 @@ final class MapKitProvider: NSObject, MapProvider, MKMapViewDelegate {
     mapView.userLocation.title = ""
     mapView.showsUserLocation = true
   }
-}
-
-extension MapKitProvider {
-  
-  private func registerAnnotationViews(for mapView: MKMapView) {
-//    mapView.register(CityAnnotationView.self, forAnnotationViewWithReuseIdentifier: CityAnnotationView.reuseIdentifier)
-//    mapView.register(RoundTripAnnotationView.self, forAnnotationViewWithReuseIdentifier: RoundTripAnnotationView.reuseIdentifier)
-  }
-
 }
 
 extension MapKitProvider {
