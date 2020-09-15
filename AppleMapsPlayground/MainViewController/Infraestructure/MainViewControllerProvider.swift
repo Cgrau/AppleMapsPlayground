@@ -57,7 +57,7 @@ class DefaultMainProvider : MainProvider {
     return MapKitRouteDrawable(mapProvider: mapProvider)
   }
   
-  private func overlayDrawableProvider(with mapProvider: MapProvider) -> OverlayDrawable {
-    return MapKitOverlayDrawable(mapProvider: mapProvider)
-  }
+//  private func overlayDrawableProvider(with mapProvider: MapProvider) -> OverlayDrawable {
+//    return MapKitOverlayDrawable(mapProvider: mapProvider)
+//  }
 }

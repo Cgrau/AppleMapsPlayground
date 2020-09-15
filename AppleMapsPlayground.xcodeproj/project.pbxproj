@@ -209,10 +209,10 @@
 			isa = PBXGroup;
 			children = (
 				2C2A39E624504F4700D76132 /* MapView.swift */,
+				2C2A39B12450381000D76132 /* MapProviderDelegate.swift */,
 				2C2A39DA2450496A00D76132 /* Overlay */,
 				2C2A39D7245046B800D76132 /* Route */,
 				2C2A39AF245037E900D76132 /* MapKitProvider.swift */,
-				2C2A39B12450381000D76132 /* MapProviderDelegate.swift */,
 				2C2A39B32450382E00D76132 /* MapProvider.swift */,
 				2C2A39B52450386100D76132 /* ZoomLevel.swift */,
 			);
@@ -296,9 +296,9 @@
 		2C2A39D7245046B800D76132 /* Route */ = {
 			isa = PBXGroup;
 			children = (
+				2C2A39D8245046C400D76132 /* RouteDrawable.swift */,
 				2C2A39F02452DE8500D76132 /* Libraries */,
 				2C2A39EB2450551A00D76132 /* Extensions */,
-				2C2A39D8245046C400D76132 /* RouteDrawable.swift */,
 				2C2A39E92450531E00D76132 /* MapKitRouteDrawable.swift */,
 			);
 			path = Route;
